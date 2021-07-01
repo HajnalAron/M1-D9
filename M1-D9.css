@@ -1,0 +1,40 @@
+body {
+    background-color:yellow;
+}
+.bingoBoard {
+    width: 741px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bingoNumber {
+    height: 35px;
+    width: 37px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bingoNumber, .userBingoNumber {
+    height: 35px;
+    width: 37px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .highlighted {
+      background-color: green;
+
+  }
+  .buttons {
+      background-color: red;
+  }
